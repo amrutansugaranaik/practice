@@ -8,3 +8,4 @@ Few coding problems from the book Let Us C in Rust language. Most rust books onl
 2_C_j.rs, 2_C_k.rs, 2_C_l.rs -> Need to do. Got bored.
 2_G_c.rs, 2_G_g.rs, 2_G_h.rs -> long simple conditions, will do later
 Section K of chapter 2 has questions already solved in section C and G.
+3_B_a.rs -> will do later
