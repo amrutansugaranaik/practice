@@ -9,3 +9,6 @@ Few coding problems from the book Let Us C in Rust language. Most rust books onl
 2_G_c.rs, 2_G_g.rs, 2_G_h.rs -> long simple conditions, will do later
 Section K of chapter 2 has questions already solved in section C and G.
 3_B_a.rs -> will do later
+3_E_d.rs -> need to think an approach other than bit masking
+3_E_h.rs -> will do after studying array.
+j,k,l -> will do later
