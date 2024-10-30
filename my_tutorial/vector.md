@@ -209,3 +209,39 @@ fn main() {
   ```
 - Other algorithms to explore
   > binary_search, sort_by_key, iter, allocator
+
+### Complete code for algorithms :
+
+```
+fn compare_numbers(a: &i32, b: &i32) -> std::cmp::Ordering {
+    b.cmp(a)
+}
+
+fn main() {
+
+    // Create vector using macro
+    let mut data:Vec<i32> = vec![1, 2, 3, 4, 5];
+    println! ("{} {} {} {} {}", data[0], data[1], data[2], data[3], data[4]); // 1 2 3 4 5
+
+    // reverse
+    data.reverse();
+    println! ("{} {} {} {} {}", data[0], data[1], data[2], data[3], data[4]); // 5 4 3 2 1
+
+    // linear search. Rust allows reference to values
+    if data.contains (&3) {
+        println! (" 3 is present");
+    }
+
+    // sort unstable.
+    data.sort_unstable();
+    println! ("{} {} {} {} {}", data[0], data[1], data[2], data[3], data[4]); // 5 4 3 2 1
+    
+    // sort stable
+    data.sort();
+    println! ("{} {} {} {} {}", data[0], data[1], data[2], data[3], data[4]); // 5 4 3 2 1
+    
+    data.sort_by(compare_numbers);
+    println! ("{} {} {} {} {}", data[0], data[1], data[2], data[3], data[4]); // 5 4 3 2 1
+
+}   
+```
